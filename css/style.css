@@ -42,6 +42,47 @@ img {
 }
 
 /*HEADER*/
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header .adress {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.header-mail {
+margin-right: 50px;
+
+}
+.header .logotype-header {
+    margin-right: 93px;
+}
 
 .navigation-list-link, .header-mail, .header-tel {
     font-size: 14px;
