@@ -19,7 +19,7 @@ ul {
     list-style-type: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
@@ -42,10 +42,12 @@ img {
 }
 
 /*HEADER*/
+
 .header .container {
     display: flex;
     align-items: center;
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -75,11 +77,14 @@ img {
     display: flex;
     align-items: center;
     margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
-.header-mail {
-margin-right: 50px;
 
+.header-mail {
+    margin-right: 50px;
 }
+
 .header .logotype-header {
     margin-right: 93px;
 }
@@ -174,21 +179,39 @@ margin-right: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
+    Outline: none;
     cursor: pointer;
-}
-
-.btn-title:active, .btn-title:hover, .btn-title:focus {
-    border: none;
 }
 
 /*end HERO*/
 
 /*section 1*/
 
+.about-list {
+    display: flex;
+    align-items: center;
+}
+
+.about-title-item {
+    display: flex;
+    align-items: center;
+    width: 270px;
+}
+
+.about-title-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.wrapper {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .about-title-idea {
+    margin-bottom: 10px;
     font-weight: var(--font-weight-secondary);
     font-size: 14px;
-    line-height: 1.143;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -199,6 +222,8 @@ margin-right: 50px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 /*section worker-groupe*/
