@@ -440,7 +440,7 @@ img {
 }
 
 .btn-list-item:not(:last-child) {
-    margin-left: 8px;
+    margin-right: 8px;
 }
 .btn-list-title {
     padding: 6px 22px;
