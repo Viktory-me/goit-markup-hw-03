@@ -29,7 +29,9 @@ h1, h2, h3, h4, h5, h6, p {
 img {
     box-sizing: border-box;
 }
-
+ul {
+    text-decoration: none;
+}
 a {
     text-decoration: none;
 }
@@ -497,6 +499,7 @@ a {
     letter-spacing: 0.06em;
     margin: 20px 24px 4px;
     padding: 0;
+    color: black;
 }
 
 .project-description {
