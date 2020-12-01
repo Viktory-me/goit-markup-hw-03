@@ -29,9 +29,11 @@ h1, h2, h3, h4, h5, h6, p {
 img {
     box-sizing: border-box;
 }
+
 ul {
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
 }
@@ -478,6 +480,7 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     outline: none;
+    cursor: pointer;
 }
 
 .btn-list-title:hover, .btn-list-title:focus {
