@@ -11,7 +11,6 @@ body {
     font-family: var(--font-main);
     font-weight: var(--font-main);
     font-style: normal;
-    width: 1600px;
     margin: auto;
 }
 
@@ -199,14 +198,16 @@ a {
 
 /*section 1*/
 
+.about-section {
+    padding: 94px 0 0;
+}
 .about-list {
     display: flex;
     align-items: center;
 }
 
 .about-title-item {
-    display: flex;
-    align-items: center;
+    display: block;
     width: 270px;
 }
 
@@ -214,10 +215,7 @@ a {
     margin-right: 30px;
 }
 
-.wrapper {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 
 .about-title-idea {
     margin-bottom: 10px;
@@ -244,6 +242,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 94px 0;
 }
 
 .work-list-title {
@@ -262,8 +261,7 @@ a {
     align-items: center;
     padding-inline-start: 0;
     margin-top: 50px;
-    margin-bottom: 94px;
-}
+ }
 
 .work-list-item {
     display: flex;
@@ -283,6 +281,7 @@ a {
     width: 100%;
     display: flex;
     align-items: center;
+    padding: 94px 0;
 }
 
 .worker-groupe-list {
@@ -297,8 +296,7 @@ a {
 
 .worker-item {
     background-color: #FFFFFF;
-    margin-bottom: 94px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -315,9 +313,7 @@ a {
     line-height: 1.1667;
     letter-spacing: 0.03em;
     margin: auto;
-    margin-top: 94px;
-    margin-bottom: 50px;
-    justify-content: center;
+        justify-content: center;
     padding: 0;
 }
 
@@ -350,15 +346,13 @@ a {
     background: #2F303A;
     width: 100%;
     display: flex;
+    padding: 60px 0;
 }
 
 .footer-section {
     display: flex;
     flex-direction: column;
-    margin-top: 59px;
-    margin-bottom: 60px;
-    margin-left: 215px;
-    margin-right: 1154px;
+
 }
 
 .logotype-footer {
@@ -371,7 +365,7 @@ a {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
 }
 
 .footer-part-logo {
@@ -386,6 +380,7 @@ a {
     display: flex;
     flex-direction: column;
     min-width: 231px;
+    height: 81px;
 }
 
 .footer-adress-link {
