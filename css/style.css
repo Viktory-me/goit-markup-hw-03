@@ -413,7 +413,7 @@ a {
     display: flex;
     align-items: center;
     border-top: 1px solid #ECECEC;
-    ;
+    padding: 94px 0;
 }
 
 .btn-list {
@@ -426,7 +426,6 @@ a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 
 .project-list-item {
@@ -451,7 +450,6 @@ a {
 }
 
 .btn-list-item {
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
